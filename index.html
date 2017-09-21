@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Pokemon Trivia </title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+	<!-- Starting the game -->
+	
+	<div class="containers" id="start_container">
+		<h1 class="logo"> Pokemon Trivia</h1>
+
+		<button class="btns" id="start_button"> Catchem All! ></button>
+
+	</div>
+
+	<!--Display board/ when game is started -->
+
+	<div class="containers" id="game_container">
+		<h1 class="logo"> Pokemon Trivia</h1>
+	
+		<h1 id="timer"> Time Remaining <span id="timer_number"> 60 Seconds</span></h1>
+	
+	<!-- Trivia Questions -->	
+
+		<h1>1. What was ash's first pokemon? </h1>
+			<input type="radio" name="q1" value="Charmander">Charmander
+			<input type="radio" name="q1" value="Squirtle"> Squirtle
+			<input type="radio" name="q1" value="Pikachu"> Pikachu
+			<input type="radio" name="q1" value="Bulbasaur"> Bulbasaur
+
+		<h1>2. Who gave Ash his Pikachu? </h1>
+			<input type="radio" name="q2" value="Brock">Brock
+			<input type="radio" name="q2" value="Misty"> Misty
+			<input type="radio" name="q2" value="ProfOak"> Professor Oak
+			<input type="radio" name="q2" value="Gary"> Gary
+
+		<h1>3. What is the dude's name from Team Rockets? </h1>
+			<input type="radio" name="q3" value="Jesse">Jesse
+			<input type="radio" name="q3" value="James"> James
+			<input type="radio" name="q3" value="Ryan"> Ryan
+			<input type="radio" name="q3" value="John"> John
+
+		<h1>4. What evolution stone can turn an Evee into a Vaporeon </h1>
+			<input type="radio" name="q4" value="Thunder"> Thunder
+			<input type="radio" name="q4" value="Fire"> Fire
+			<input type="radio" name="q4" value="Water"> Water
+			<input type="radio" name="q4" value="Moon"> Moon
+
+		<h1>5. What was ash's first pokemon caught? </h1>
+			<input type="radio" name="q5" value="Krabby">Krabby
+			<input type="radio" name="q5" value="Caterpie"> Caterpie
+			<input type="radio" name="q5" value="Pikachu"> Pikachu
+			<input type="radio" name="q5" value="Rattata"> Rattata
+
+		<h1>6. Who always cooks for Ash? </h1>
+			<input type="radio" name="q6" value="Misty"> Misty
+			<input type="radio" name="q6" value="Brock"> Brock
+			<input type="radio" name="q6" value="Pikachu"> Pikachu
+			<input type="radio" name="q6" value="Mom"> Mom
+
+		<h1>7. What do you win from the gym? </h1>
+			<input type="radio" name="q7" value="Badges"> Badges
+			<input type="radio" name="q7" value="Pokeballs"> Pokeballs
+			<input type="radio" name="q7" value="Pokemon"> Pokemon
+			<input type="radio" name="q7" value="Money"> Money
+
+		<h1>8. Which company made Pokemon? </h1>
+			<input type="radio" name="q8" value="Nintendo"> Nintendo
+			<input type="radio" name="q8" value="Bandai"> Bandai
+			<input type="radio" name="q8" value="PokemonCo"> Pokemon Co
+			<input type="radio" name="q8" value="Google"> Google
+
+		<h1>9. How many pokemons are there in the original pokedex? </h1>
+			<input type="radio" name="q9" value="100">100
+			<input type="radio" name="q9" value="199"> 199
+			<input type="radio" name="q9" value="162"> 162
+			<input type="radio" name="q9" value="151"> 151
+
+		<h1>10. What is the name of the pokemon that was in the original pokemon but not in the pokedex? </h1>
+			<input type="radio" name="q10" value="Likitung"> Likitung
+			<input type="radio" name="q10" value="Mewtwo"> Mewtwo
+			<input type="radio" name="q10" value="HoHo"> HoHo
+			<input type="radio" name="q10" value="Mew"> Mew
+
+			<br>
+		<button class="btns" id="done_button"> Finished! </button>
+
+	</div>
+
+	<!--Results -->
+
+	<div class="containers" id="end_container">
+
+			<h1 class="logo"> Pokemon Trivia </h1>
+
+			<br>
+
+			<h1 id="done"> Your Results: </h1>
+
+			<br>
+
+			<h1> Correct Answers: <span id="correctAnswers">0</span></h1>
+			<h1> Incorrect Answers: <span id="incorrectAnswers">0</span></h1>
+			<h1> Unanswered: <span id="unanswered">0</span></h1>
+
+			<h1> *refresh to play again* </h1>
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+
+	<script src="assets/javascript/app.js"></script>
+		
+	</body>
+</html>
+
+	<script type="text/javascript" src="TriviaGame/assets/javascript/app.js"></script>
+
+</body>
+</html>
